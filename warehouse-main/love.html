@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>经典浪漫表白</title>
+    <style>
+        /* 使用Google Fonts中的柔美脚本字体 */
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        body {
+            background-color: #f2e4e4; /* 象牙白 */
+            color: #8b0000; /* 深红 */
+            font-family: 'Pacifico', cursive; /* 柔美的脚本字体 */
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('path_to_rose_image.jpg'); /* 玫瑰花背景图 */
+            background-size: cover;
+            background-position: center;
+        }
+
+        #message {
+            text-align: center;
+            font-size: 24px;
+            background-color: rgba(255, 192, 203, 0.6); /* 粉红，半透明背景 */
+            padding: 20px;
+            border: 2px solid #ff69b4; /* 玫瑰金边框 */
+            border-radius: 10px;
+        }
+
+        #heart {
+            width: 100px;
+            height: 90px;
+            position: relative;
+            margin-top: 20px;
+            transform: rotate(-45deg);
+        }
+
+        #heart:before, #heart:after {
+            content: '';
+            width: 52px;
+            height: 80px;
+            border-radius: 50px 50px 0 0;
+            position: absolute;
+            top: 0;
+            left: 50px;
+            background-color: #ff69b4; /* 玫瑰金 */
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+
+        #heart:after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="container">
+    <div id="message">
+        亲爱的 XXX，<br>
+        在这玫瑰的海洋中，我只想告诉你，我爱你。
+    </div>
+    <div id="heart"></div>
+</div>
+
+</body>
+
+</html>
+
+

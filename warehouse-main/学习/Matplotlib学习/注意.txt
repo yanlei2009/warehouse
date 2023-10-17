@@ -1,0 +1,15 @@
+matplotlib中文字体：
+plt.rcParams['font.family'] = ['sans-serif']
+plt.rcParams['font.sans-serif'] = ['SimHei']
+-----------------------------------------------------------------------------------------------
+pie()百分比显示：
+autopct='%1.1f%%'
+-----------------------------------------------------------------------------------------------
+import matplotlib.plot as plt
+plt.figure(figsize=(10,6))
+# 如果程序从Qt中启动，plt将使用Qt库绘图，否则使用Tk绘图。
+try:
+    fig.canvas.setWindowTitle(self.title)
+    fig.canvas.manager.window.setWindowTitle(self.title)
+except:
+    fig.canvas.manager.window.title(self.title)

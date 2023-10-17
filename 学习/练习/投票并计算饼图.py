@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from config import peoples
 plt.rcParams['font.family'] = ['sans-serif']
 plt.rcParams['font.sans-serif'] = ['SimHei']
 
@@ -47,8 +48,4 @@ def draw(namedic):
     plt.show()
 
 if __name__ == '__main__':
-    peoples= {'1': '甲',
-              '2': '乙',
-              '3': '丙',
-              '4': '丁'}
     draw(peoples)
