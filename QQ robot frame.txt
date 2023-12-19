@@ -1,0 +1,8 @@
+Mirai https://github.com/mamoe/mirai
+NoneBot https://v2.nonebot.dev/ 
+go-cqhttp https://docs.go-cqhttp.org/
+QYBot https://qvbot.com/
+MyQQ复活版 https://www.myqqx.top/ 
+DR机器人 https://drea.cc 
+小O机器人 https://ovqq.cc/ 
+炸毛框架 https://framework.zhamao.xin/ 
